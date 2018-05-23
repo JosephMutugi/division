@@ -2,9 +2,11 @@
 # where b is the divider
 
 
+
 def divide(a, b):
     # initialice the quotient to zero
     quotient = 0
+    #the logical arguments
     if b == 0:
         return("cannot divide by zero")
     elif a == b:
